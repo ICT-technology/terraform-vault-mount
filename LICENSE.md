@@ -64,5 +64,5 @@ This license shall be governed by and construed in accordance with the laws of S
 If any provision of this license is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.
 
 ## 8. Change of License
-This module is licensed under the terms of this agreement until December 31, 2020. On and after this date, this module will be licensed under the terms of the Apache 2.0 License.
+This module is licensed under the terms of this agreement until December 31, 2035. On and after this date, this module will be licensed under the terms of the Apache 2.0 License.
 
