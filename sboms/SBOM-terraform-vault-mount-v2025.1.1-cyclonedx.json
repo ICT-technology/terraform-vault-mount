@@ -1,0 +1,44 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:1d68f3e2-4c4a-45b6-9f67-4c7ed6a58276",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-12-18T13:33:35Z",
+    "component": {
+      "type": "library",
+      "name": "terraform-vault-mount",
+      "version": "2025.1.1",
+      "group": "ICT.technology KLG",
+      "purl": "pkg:git/gitlab.ict.technology/ict/terraform/modules/terraform-vault-mount.git@2025.1.1",
+      "description": "A Terraform module for managing HashiCorp Vault policies."
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "terraform-vault-mount",
+      "version": "2025.1.1",
+      "group": "ICT.technology KLG",
+      "purl": "pkg:git/gitlab.ict.technology/ict/terraform/modules/terraform-vault-mount.git@2025.1.1",
+      "description": "A Terraform module for managing HashiCorp Vault policies."
+    },
+    {
+      "type": "library",
+      "name": "vault",
+      "version": "4.x",
+      "group": "hashicorp",
+      "purl": "pkg:terraform/hashicorp/vault@4",
+      "description": "HashiCorp Vault provider for Terraform."
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:git/gitlab.ict.technology/ict/terraform/modules/terraform-vault-mount.git@2025.1.1",
+      "dependsOn": [
+        "pkg:terraform/hashicorp/vault@4"
+      ]
+    }
+  ]
+}
+

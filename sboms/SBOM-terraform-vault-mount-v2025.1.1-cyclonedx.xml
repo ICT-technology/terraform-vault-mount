@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" serialNumber="urn:uuid:1d68f3e2-4c4a-45b6-9f67-4c7ed6a58276" version="1" xmlns="http://cyclonedx.org/schema/bom/1.6">
+  <metadata>
+    <timestamp>2024-12-18T13:33:35Z</timestamp>
+    <component type="library">
+      <group>ICT.technology KLG</group>
+      <name>terraform-vault-mount</name>
+      <version>2025.1.1</version>
+      <description>A Terraform module for managing HashiCorp Vault policies.</description>
+      <purl>pkg:git/gitlab.ict.technology/ict/terraform/modules/terraform-vault-mount.git@2025.1.1</purl>
+    </component>
+  </metadata>
+  <components>
+    <component type="library">
+      <group>ICT.technology KLG</group>
+      <name>terraform-vault-mount</name>
+      <version>2025.1.1</version>
+      <description>A Terraform module for managing HashiCorp Vault policies.</description>
+      <purl>pkg:git/gitlab.ict.technology/ict/terraform/modules/terraform-vault-mount.git@2025.1.1</purl>
+    </component>
+    <component type="library">
+      <group>hashicorp</group>
+      <name>vault</name>
+      <version>4.x</version>
+      <description>HashiCorp Vault provider for Terraform.</description>
+      <purl>pkg:terraform/hashicorp/vault@4</purl>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:git/gitlab.ict.technology/ict/terraform/modules/terraform-vault-mount.git@2025.1.1">
+      <dependency ref="pkg:terraform/hashicorp/vault@4" />
+    </dependency>
+  </dependencies>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>72pmi3JTsYJ9YG1aWzpPmaJuuAhlELn2Za55nHlGAbg=</DigestValue></Reference></SignedInfo><SignatureValue>MiD0gB2FimwsA6AH7y7MkIXEjMSHoG1gYBSud+5qlNIViBeuVynGYiSo99SSc5/wM3qbsnWLqzE3QV4z2Pbqp1edDJci9uXPgLk2cUt6L3LS+SBZ/omqCkSdom2HDqx7y7AyjMa5XAXyldBsKiJ6L09nFORIqjtBAFrBPwY1G9oOMuEJPsyI0CsQjDe59IbAibflIf11ZD+uLs4/JpatU2agIXplSW4fZF3AMb3wIKV+p7OfLQgGjcpdHsUxlECXHgg+401WYGaDtrNaMuw4HrcR0YlrusI0u0zvEAl7sS4sh4XOaFjnHIhDgEifaTlsoPU7KaWJAnmyN/IFEmp4fg==</SignatureValue></Signature></bom>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" serialNumber="urn:uuid:4e671687-395b-41f5-a30f-a58921a69b80" version="1" xmlns="http://cyclonedx.org/schema/bom/1.6">
+  <metadata>
+    <timestamp>2025-01-15T09:30:00Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>HashiCorp</vendor>
+        <name>terraform</name>
+        <version>1.12.0</version>
+      </tool>
+    </tools>
+    <authors>
+      <author>
+        <name>Ralf Ramge</name>
+        <email>ralf.ramge@ict.technology</email>
+      </author>
+    </authors>
+    <component type="application" bom-ref="pkg:terraform/ict.technology/terraform-vault-mount@v2025.1.3">
+      <author>Ralf Ramge</author>
+      <publisher>ICT.technology KLG</publisher>
+      <group>ICT.technology KLG</group>
+      <name>terraform-vault-mount</name>
+      <version>v2025.1.3</version>
+      <description>Terraform module for managing Vault mounts</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-256">f3726aa675cf1252778be213f90748de1883738e7c1acbe685531772c5937137</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>Business Source License (BSL)</name>
+          <text content-type="text/markdown" encoding="base64">IyBDdXN0b20gQnVzaW5lc3MgU291cmNlIExpY2Vuc2UgZm9yIFRlcnJhZm9ybSBNb2R1bGUKKipDb3B5cmlnaHQgKEMpIDIwMjUgUmFsZiBSYW1nZSwgSUNULnRlY2hub2xvZ3kgS0xHLioqCgpUaGlzIFRlcnJhZm9ybSBtb2R1bGUgaGFzIGJlZW4gZGV2ZWxvcGVkIGJ5IFJhbGYgUmFtZ2UgKElDVC50ZWNobm9sb2d5IEtMRykuIEl0IGlzIGxpY2Vuc2VkIHVuZGVyIGEgY3VzdG9tIGJ1c2luZXNzIHNvdXJjZSBsaWNlbnNlLiBUaGlzIGxpY2Vuc2UgZ292ZXJucyB1c2FnZSByaWdodHMsIHJlc3RyaWN0aW9ucywgYW5kIGNvbmRpdGlvbnMgZm9yIGNvbW1lcmNpYWwgYW5kIG5vbi1jb21tZXJjaWFsIHVzZSwgd2hpbGUgZW5zdXJpbmcgc291cmNlIGNvZGUgYXZhaWxhYmlsaXR5LiBBZnRlciBhIHNwZWNpZmllZCBwZXJpb2QsIHRoZSBsaWNlbnNlIHRyYW5zaXRpb25zIHRvIGEgbW9yZSBwZXJtaXNzaXZlIG9wZW4tc291cmNlIGxpY2Vuc2UuCgpUaGUgZm9sbG93aW5nIHRlcm1zIGFwcGx5OgoKLS0tCgojIyAxLiBVc2FnZSBSaWdodHMgYW5kIExpY2Vuc2luZwoKIyMjIGEpIENvbnRyYWN0LUJhc2VkIFVzZToKLSBJZiB0aGlzIG1vZHVsZSB3YXMgZGV2ZWxvcGVkIHVuZGVyIGEgUHJvZmVzc2lvbmFsIFNlcnZpY2VzIENvbnRyYWN0IG9yIFdvcmstZm9yLUhpcmUgQ29udHJhY3QsIHRoZSBjbGllbnQgZm9yIHdob20gdGhlIG1vZHVsZSB3YXMgc3BlY2lmaWNhbGx5IGRldmVsb3BlZCBoYXMgdW5saW1pdGVkIHVzYWdlIHJpZ2h0cyB3aXRoaW4gdGhlIHNjb3BlIGRlZmluZWQgaW4gdGhlIHJlc3BlY3RpdmUgY29udHJhY3QuCi0gVGhlc2UgY29udHJhY3Qtc3BlY2lmaWMgcmlnaHRzIHN1cGVyc2VkZSB0aGUgZ2VuZXJhbCBsaWNlbnNpbmcgdGVybXMgZm9yIHRoZSBzcGVjaWZpYyBjbGllbnQgbmFtZWQgaW4gdGhlIGNvbnRyYWN0LgotIFRoZSBzY29wZSBhbmQgZXh0ZW50IG9mIHVzZSBhcmUgZ292ZXJuZWQgYnkgdGhlIHRlcm1zIG9mIHRoZSBvcmlnaW5hbCBjb250cmFjdC4KLSBUaGlzIGxpY2Vuc2UgaW5jbHVkZXMgYWxsIHVwZGF0ZXMsIG1vZGlmaWNhdGlvbnMsIGFuZCBpbXByb3ZlbWVudHMgdG8gdGhlIG1vZHVsZSB0aGF0IGFyZSByZWxlYXNlZCBkdXJpbmcgdGhlIHRlcm0gb2YgdGhlIGNvbnRyYWN0IGJ1dCBkb2VzIG5vdCBncmFudCByaWdodHMgdG8gdXBkYXRlcyBvciBtb2RpZmljYXRpb25zIHJlbGVhc2VkIGFmdGVyIHRoZSBjb250cmFjdCB0ZXJtIGhhcyBleHBpcmVkIHVubGVzcyBleHBsaWNpdGx5IHN0YXRlZCBvdGhlcndpc2UgaW4gdGhlIGNvbnRyYWN0LgoKIyMjIGIpIENvbW1lcmNpYWwgVXNlOgotIEJ1c2luZXNzIGVudGl0aWVzLCBjb21tZXJjaWFsIG9yZ2FuaXphdGlvbnMsIGFuZCBlbnRlcnByaXNlcyAoaGVyZWluYWZ0ZXIgIkNvbW1lcmNpYWwgTGljZW5zZWVzIikgYXJlIGdyYW50ZWQgYSAqKm5vbi1leGNsdXNpdmUsIHBlcnBldHVhbCwgYW5kIHJveWFsdHktZnJlZSBsaWNlbnNlKiogdG8gdXNlLCBtb2RpZnksIGFuZCBkaXN0cmlidXRlIHRoaXMgbW9kdWxlIHdpdGhpbiB0aGVpciBidXNpbmVzcyBvcGVyYXRpb25zIHVwb24gb2J0YWluaW5nIGEgdmFsaWQgY29tbWVyY2lhbCBsaWNlbnNlIGZyb20gSUNULnRlY2hub2xvZ3kgS0xHLgotIENvbW1lcmNpYWwgbGljZW5zZXMgbXVzdCBiZSBvYnRhaW5lZCB0aHJvdWdoIGEgZm9ybWFsIGxpY2Vuc2luZyBhZ3JlZW1lbnQgd2l0aCBJQ1QudGVjaG5vbG9neSBLTEcsIHdoaWNoIGluY2x1ZGVzIGJ1dCBpcyBub3QgbGltaXRlZCB0bzogbGljZW5zZSB2YWxpZGF0aW9uLCB0ZXJtcyBvZiB1c2UsIHN1cHBvcnQgYXJyYW5nZW1lbnRzLCBhbmQgYW55IGFwcGxpY2FibGUgZmVlcy4KLSBUaGlzIGxpY2Vuc2UgcGVybWl0cyBDb21tZXJjaWFsIExpY2Vuc2VlcyB0byBhZGFwdCBhbmQgaW1wbGVtZW50IHRoZSBtb2R1bGUgZm9yIHRoZWlyIGJ1c2luZXNzIHB1cnBvc2VzLCBvcGVyYXRpb25hbCBuZWVkcywgYW5kIGNvbW1lcmNpYWwgYXBwbGljYXRpb25zIHdpdGhpbiB0aGVpciBvcmdhbml6YXRpb24gYW5kIGl0cyBzdWJzaWRpYXJpZXMuCgojIyMgYykgTm9uLUNvbW1lcmNpYWwgYW5kIEVkdWNhdGlvbmFsIFVzZToKLSBBY2FkZW1pYyBpbnN0aXR1dGlvbnMsIG5vbi1wcm9maXQgb3JnYW5pemF0aW9ucywgcmVzZWFyY2ggZmFjaWxpdGllcywgYW5kIG90aGVyIG5vbi1jb21tZXJjaWFsIGVudGl0aWVzIG11c3Qgb2J0YWluIGEgc2VwYXJhdGUsIHNwZWNpZmljIHdyaXR0ZW4gYXV0aG9yaXphdGlvbiBmcm9tIElDVC50ZWNobm9sb2d5IEtMRyBmb3IgYW55IHVzZSBvZiB0aGlzIG1vZHVsZS4KLSBFZHVjYXRpb25hbCBhbmQgbm9uLWNvbW1lcmNpYWwgbGljZW5zZXMgYXJlIGxpbWl0ZWQgaW4gc2NvcGUgYW5kIG11c3QgYmUgcmVuZXdlZCBhbm51YWxseS4KLSBBbnkgdXNlIGluIGVkdWNhdGlvbmFsIGNvbnRleHRzIG11c3QgYmUgZXhwbGljaXRseSBhcHByb3ZlZCBhbmQgZG9jdW1lbnRlZCBieSBJQ1QudGVjaG5vbG9neSBLTEcuCi0gUmVzZWFyY2ggYW5kIGRldmVsb3BtZW50IGFwcGxpY2F0aW9ucyByZXF1aXJlIHNlcGFyYXRlIGxpY2Vuc2luZyBhcnJhbmdlbWVudHMuCgotLS0KCiMjIDIuIFJlc3RyaWN0aW9ucwotIFJlZGlzdHJpYnV0aW9uLCBzdWJsaWNlbnNpbmcsIG9yIHNoYXJpbmcgb2YgdGhpcyBtb2R1bGUgd2l0aCB0aGlyZCBwYXJ0aWVzIG91dHNpZGUgdGhlIGxpY2Vuc2VkIG9yZ2FuaXphdGlvbiBpcyBzdHJpY3RseSBwcm9oaWJpdGVkIHdpdGhvdXQgcHJpb3Igd3JpdHRlbiBjb25zZW50IGZyb20gdGhlIEF1dGhvci4KLSBUaGUgbW9kdWxlIG11c3Qgbm90IGJlIHNvbGQgb3IgaW5jb3Jwb3JhdGVkIGludG8gcHJvZHVjdHMgb3Igc2VydmljZXMgcHJvdmlkZWQgdG8gZXh0ZXJuYWwgcGFydGllcy4KCi0tLQoKIyMgMy4gQXV0aG9yc2hpcCBhbmQgQ29weXJpZ2h0Ci0gQWxsIHJpZ2h0cywgaW5jbHVkaW5nIGludGVsbGVjdHVhbCBwcm9wZXJ0eSBhbmQgY29weXJpZ2h0LCByZW1haW4gd2l0aCBSYWxmIFJhbWdlIChJQ1QudGVjaG5vbG9neSBLTEcpLgotIFByb3BlciBhdHRyaWJ1dGlvbiB0byB0aGUgQXV0aG9yIG11c3QgYmUgbWFpbnRhaW5lZCBpbiBhbGwgdmVyc2lvbnMgb2YgdGhpcyBtb2R1bGUuCgotLS0KCiMjIDQuIFdhcnJhbnR5IGFuZCBMaWFiaWxpdHkKLSBUaGlzIG1vZHVsZSBpcyBwcm92aWRlZCAqKiJhcyBpcyIqKiB3aXRob3V0IGFueSB3YXJyYW50aWVzLCBleHByZXNzIG9yIGltcGxpZWQuCi0gVGhlIEF1dGhvciBpcyBub3QgbGlhYmxlIGZvciBhbnkgZGFtYWdlcywgbG9zc2VzLCBvciBjbGFpbXMgYXJpc2luZyBmcm9tIHRoZSB1c2Ugb2YgdGhpcyBtb2R1bGUgb3V0c2lkZSBvZiB0aGUgc2NvcGUgb2YgdGhlIG9yaWdpbmFsIHNlcnZpY2UgY29udHJhY3QuCgotLS0KCiMjIDUuIENvbnRhY3QKRm9yIGxpY2Vuc2luZyBpbnF1aXJpZXMsIGV4dGVuZGVkIHBlcm1pc3Npb25zLCBvciBzdXBwb3J0LCBwbGVhc2UgY29udGFjdDoKLSAqKlJhbGYgUmFtZ2UqKgotICoqSUNULnRlY2hub2xvZ3kgS0xHKioKLSBbaHR0cHM6Ly9pY3QudGVjaG5vbG9neV0oaHR0cHM6Ly9pY3QudGVjaG5vbG9neSkKLSAqKkUtbWFpbDoqKiBpbmZvQGljdC50ZWNobm9sb2d5CgotLS0KCiMjIDYuIEdvdmVybmluZyBMYXcKVGhpcyBsaWNlbnNlIHNoYWxsIGJlIGdvdmVybmVkIGJ5IGFuZCBjb25zdHJ1ZWQgaW4gYWNjb3JkYW5jZSB3aXRoIHRoZSBsYXdzIG9mIFN3aXR6ZXJsYW5kLCB3aXRob3V0IHJlZ2FyZCB0byBpdHMgY29uZmxpY3Qgb2YgbGF3cyBwcmluY2lwbGVzLgoKLS0tCgojIyA3LiBTZXZlcmFiaWxpdHkKSWYgYW55IHByb3Zpc2lvbiBvZiB0aGlzIGxpY2Vuc2UgaXMgZm91bmQgdG8gYmUgaW52YWxpZCBvciB1bmVuZm9yY2VhYmxlLCB0aGUgcmVtYWluaW5nIHByb3Zpc2lvbnMgc2hhbGwgcmVtYWluIGluIGZ1bGwgZm9yY2UgYW5kIGVmZmVjdC4KCiMjIDguIENoYW5nZSBvZiBMaWNlbnNlClRoaXMgbW9kdWxlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGlzIGFncmVlbWVudCB1bnRpbCBEZWNlbWJlciAzMSwgMjAyMC4gT24gYW5kIGFmdGVyIHRoaXMgZGF0ZSwgdGhpcyBtb2R1bGUgd2lsbCBiZSBsaWNlbnNlZCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEFwYWNoZSAyLjAgTGljZW5zZS4KCg==</text>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ict:terraform-vault-mount:2025.1.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:git/gitlab.ict.technology/ict/terraform/modules/terraform-vault-mount@v2025.1.3</purl>
+      <swid tagId="ict.technology.terraform-vault-mount-v2025.1.3" name="terraform-vault-mount" version="v2025.1.3" tagVersion="0" patch="false" />
+      <modified>false</modified>
+      <properties>
+        <property name="sourceHashGeneration">find . -type f -not -path "*.git*" -not -path "*.terraform*" -not -path "*${sbom_path}" -print0 | sort -z | xargs -0 sha256sum | sha256sum | cut -d' ' -f1</property>
+        <property name="buildEnvironment">terraform 1.12.0</property>
+        <property name="minVaultVersion">1.13.0</property>
+        <property name="testCoverage">100%</property>
+        <property name="minTerraformVersion">1.12.0</property>
+        <property name="lifecyclePhase">production</property>
+        <property name="releaseDate">2025-01-15</property>
+        <property name="attestation">signed by Ralf Ramge &lt;ralf.ramge@ict.technology&gt;</property>
+        <property name="securityFeatures">Extensive variable validations for mount paths ensuring they only contain alphanumeric characters, hyphens, underscores, or forward slashes; Validation for listing_visibility values to be either 'unauth' or 'hidden'; Validation for KV-v2 mounts to have correct version settings; Validation for path format to not start or end with '/'; Validation for plugin_version to follow semantic versioning; Validation for TTL values to be positive numbers; Validation ensuring max_lease_ttl_seconds is greater than or equal to default_lease_ttl_seconds when both are specified.</property>
+        <property name="runtimeSecurityChecks">Multiple lifecycle preconditions: Ensures KV-v2 mounts have correct options; Validates mount path characters to prevent API issues; Verifies TTL relationships; Ensures PKI mounts have appropriate TTL settings. Lifecycle postconditions: Verifies mount was successfully created with valid accessor; Ensures paths are unique across all mounts to prevent conflicts.</property>
+        <property name="tokenSecurityControls">Support for identity_token_key configuration to specify the key used for signing plugin workload identity tokens; Configurable default_lease_ttl_seconds and max_lease_ttl_seconds for tokens and secrets; Runtime validation to ensure max_lease_ttl_seconds is greater than or equal to default_lease_ttl_seconds.</property>
+        <property name="validationMethod">HashiCorp Terraform 1.9+ Testing Framework</property>
+      </properties>
+    </component>
+    <manufacture>
+      <name>ICT.technology KLG</name>
+      <url>https://ict.technology</url>
+      <contact>
+        <name>Ralf Ramge</name>
+        <email>ralf.ramge@ict.technology</email>
+      </contact>
+    </manufacture>
+    <supplier>
+      <name>ICT.technology KLG</name>
+      <url>https://ict.technology</url>
+      <contact>
+        <name>Ralf Ramge</name>
+        <email>ralf.ramge@ict.technology</email>
+      </contact>
+    </supplier>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:terraform/hashicorp/terraform@1.12.0">
+      <name>hashicorp/terraform</name>
+      <version>1.12.0</version>
+      <scope>required</scope>
+      <cpe>cpe:2.3:a:hashicorp:terraform:1.12.0:*:*:*:*:enterprise:*:*</cpe>
+      <purl>pkg:terraform/hashicorp/terraform@1.12.0</purl>
+      <swid tagId="com.hashicorp.terraform-1.12.0" name="terraform" version="1.12.0" tagVersion="0" patch="false" />
+      <evidence>
+        <licenses>
+          <license>
+            <id>MPL-2.0</id>
+          </license>
+        </licenses>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="pkg:terraform/hashicorp/vault@4.0.0">
+      <name>hashicorp/vault</name>
+      <version>4.0.0</version>
+      <description>HashiCorp Vault Provider</description>
+      <scope>required</scope>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:hashicorp:vault:4.0.0:*:*:*:*:*:*:*</cpe>
+      <swid tagId="com.hashicorp.vault-4.0.0" name="vault" version="4.0.0" tagVersion="0" patch="false" />
+    </component>
+  </components>
+  <externalReferences>
+    <reference type="vcs">
+      <url>https://gitlab.ict.technology/ict/terraform/modules/terraform-vault-mount.git</url>
+    </reference>
+    <reference type="website">
+      <url>https://ict.technology</url>
+    </reference>
+    <reference type="documentation">
+      <url>https://gitlab.ict.technology/ict/terraform/modules/terraform-vault-mount/-/tree/main/docs</url>
+    </reference>
+    <reference type="build-system">
+      <url>https://gitlab.ict.technology/ict/terraform/modules/terraform-vault-mount/-/pipelines</url>
+    </reference>
+    <reference type="advisories">
+      <url>https://discuss.hashicorp.com/c/security</url>
+    </reference>
+    <reference type="release-notes">
+      <url>https://gitlab.ict.technology/ict/terraform/modules/terraform-vault-mount/-/releases</url>
+    </reference>
+  </externalReferences>
+  <dependencies>
+    <dependency ref="pkg:terraform/ict.technology/terraform-vault-mount@v2025.1.3">
+      <dependency ref="pkg:terraform/hashicorp/terraform@1.12.0" />
+      <dependency ref="pkg:terraform/hashicorp/vault@4.0.0" />
+    </dependency>
+  </dependencies>
+  <compositions>
+    <composition>
+      <aggregate>complete</aggregate>
+      <assemblies>
+        <assembly ref="pkg:terraform/ict.technology/terraform-vault-mount@v2025.1.3" />
+      </assemblies>
+      <dependencies>
+        <dependency ref="pkg:terraform/hashicorp/terraform@1.12.0" />
+        <dependency ref="pkg:terraform/hashicorp/vault@4.0.0" />
+      </dependencies>
+    </composition>
+  </compositions>
+  <vulnerabilities>
+    <vulnerability>
+      <id>CVE-2021-36230</id>
+      <source>
+        <name>NVD</name>
+        <url>https://nvd.nist.gov/vuln/detail/CVE-2021-36230</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>nvd@nist.gov</name>
+            <url>https://nvd.nist.gov/vuln/detail/CVE-2021-36230</url>
+          </source>
+          <score>8.8</score>
+          <severity>high</severity>
+          <method>CVSSv31</method>
+        </rating>
+        <rating>
+          <source>
+            <name>nvd@nist.gov</name>
+            <url>https://nvd.nist.gov/vuln/detail/CVE-2021-36230</url>
+          </source>
+          <score>6.5</score>
+          <severity>unknown</severity>
+          <method>CVSSv2</method>
+        </rating>
+      </ratings>
+      <description>HashiCorp Terraform Enterprise releases up to v202106-1 did not properly perform authorization checks on a subset of API requests executed using the run token, allowing privilege escalation to organization owner. Fixed in v202107-1.</description>
+      <published>2021-07-20T21:15:07.7Z</published>
+      <updated>2024-11-21T06:13:21.177Z</updated>
+      <affects>
+        <target>
+          <ref>cpe:2.3:a:hashicorp:terraform:1.12.0:*:*:*:*:enterprise:*:*</ref>
+        </target>
+      </affects>
+    </vulnerability>
+  </vulnerabilities>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>RsjAeYzlEjnAtZCo2HhzjXzEUpG6EIzqey+c6GpgQS8=</DigestValue></Reference></SignedInfo><SignatureValue>QaUagcCEy971awivQXPH/8BwCugD7+ToKSl82qNSqEsoIeOyWA3rxZdil37p5VNXfSkc3iAE3lM9AYxvGKEaLoZ4NZ8RKoYg3iuYJov6tvTWRhvqeWS85CYEHmO/k2mRpDD90wNsTpVc18pLFJq/TkJ3ZXFio/ow5S3OGSEkqyywVUfV0hJZ+bcetSGT3URNqEPNmgzKbyn30fzc9BKL21NIYIgTtwqxBP6SnnN9MLX/4uSgBvxi4YkMfDwLGMBp6jpCArJ/tPwKb57ktwhpOwsQ4A3WtynDjHKLFo4AYUK/lOD7RBS0PgLFnZ5YxXnvUqPwmtwpqlnVm27tlVBKmQ==</SignatureValue></Signature></bom>
